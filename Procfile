@@ -1,1 +1,1 @@
-web: gunicorn face_reko.wsgi
+web: gunicorn wsgi:app
